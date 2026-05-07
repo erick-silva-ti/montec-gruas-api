@@ -648,6 +648,7 @@ const buildDocumentHtml = (
           /* ── Orcamento: client rows ── */
           .quote-doc .doc-number-row { display: none; }
           .qcr { display: flex; flex-direction: column; gap: 5px; margin-bottom: 10px; }
+          .quote-doc .qcr { margin-top: 8px; }
           .qr  { display: flex; gap: 5px; }
           .qf  {
             flex: 1;

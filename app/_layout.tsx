@@ -106,6 +106,7 @@ function AppContent() {
         <Stack.Screen name="editar-orcamento/[id]" options={{ headerShown: false }} />
         <Stack.Screen name="orcamentos" options={{ headerShown: false }} />
         <Stack.Screen name="ordem-servico" options={{ headerShown: false }} />
+        <Stack.Screen name="emitir-nota-fiscal" options={{ headerShown: false }} />
       </Stack>
       <StatusBar style="dark" />
     </>

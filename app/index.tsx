@@ -76,7 +76,7 @@ export default function HomeScreen() {
           <MainButton title="NOVO ORCAMENTO" onPress={() => router.push('/novo-orcamento')} />
           <MainButton title="ORDEM DE SERVICO" onPress={() => router.push('/ordem-servico')} />
           <MainButton title="ORCAMENTOS GERADOS" onPress={() => router.push('/orcamentos')} outlined />
-          <MainButton title="EMITIR NOTA FISCAL" onPress={() => router.push('/orcamentos')} icon="receipt-long" />
+          <MainButton title="EMITIR NOTA FISCAL" onPress={() => router.push('/emitir-nota-fiscal')} icon="receipt-long" />
         </View>
       </ImageBackground>
     </SafeAreaView>

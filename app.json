@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Montec Gruas",
-    "slug": "montec-grua-mobile",
+    "slug": "grua",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -49,7 +49,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "01767cf7-856f-46ed-a5fb-530df38a0435"
+        "projectId": "8bfdf5f4-0259-4c69-98f5-e538a967c7ef"
       }
     }
   }
