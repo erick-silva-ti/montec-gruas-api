@@ -38,9 +38,7 @@ const escapeHtml = (value: string) =>
 const resolveAssetBase64 = async (moduleId: number): Promise<string> => {
   const asset = Asset.fromModule(moduleId);
 
-  if (!asset.localUri) {
-    await asset.downloadAsync();
-  }
+  await asset.downloadAsync();
 
   const uri = asset.localUri ?? asset.uri;
   const ext = uri.split('.').pop()?.toLowerCase() ?? 'jpeg';
