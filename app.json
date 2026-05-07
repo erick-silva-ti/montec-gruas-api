@@ -4,7 +4,7 @@
     "slug": "montec-gruas-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/branding/logo.png",
     "scheme": "grua",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,10 +14,8 @@
     "android": {
       "package": "com.montecgruas.grua",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/branding/logo.png",
+        "backgroundColor": "#FFFFFF"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
