@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Montec Gruas",
-    "slug": "grua",
+    "slug": "montec-gruas-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
